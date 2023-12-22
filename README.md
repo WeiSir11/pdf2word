@@ -15,9 +15,10 @@ git clone git@github.com:simpleapples/pdf2word.git
 
 ```python
 cd pdf2word
-python3 -m venv venv
-source venv/bin/activate
+python -m venv myenv
+myenv\Scripts\activate
 pip install -r requirements.txt
+pip install pdf2docx
 ```
 
 * 修改config.cfg文件，指定存放pdf和word文件的文件夹，以及同时工作的进程数
